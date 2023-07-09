@@ -1,3 +1,75 @@
-h1{
+
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    padding: 15px 25px;
+
+}
+
+/* style header section */
+.header{
+    background-color: #FFF8F3;
+   
+
+}
+/* style nav  */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px ;
+    
+}
+
+.nav-logo{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nav-red{
     color: red;
+}
+.nav-manus{
+    display: flex;
+
+    align-items: center;
+    gap: 45px;
+}
+.nav-manus li{
+    list-style: none;
+
+}
+.nav-manus li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color:  #474747;
+
+
+}
+
+/* banner-section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: ;
+}
+
+
+/* banner-images */
+.bannner-image{
+   
 }
