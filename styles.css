@@ -16,11 +16,22 @@
     padding: 15px 25px;
 
 }
+.title-section{
+     color:#181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
 
 /* style header section */
 .header{
     background-color: #FFF8F3;
-   
+   background-image: url(./images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size: 700px;
 
 }
 /* style nav  */
@@ -29,6 +40,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 30px ;
+    gap: 100px ;
     
 }
 
@@ -65,11 +77,77 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: ;
+    padding: 20px 30px 0px 150px;
+}
+.banner-title{
+    color:  #474747;
+
+    font-size: 45px;
+
+    font-weight: 600;
+
+}
+
+.banner-subtitle{
+    color: #181818;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 10px 0px;
+
+}
+.bannner-description{
+    width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 15px;
+}
+.button-margin{
+    margin-left: 18px;
 }
 
 
 /* banner-images */
 .bannner-image{
-   
+   width: 500px ;
+    margin-bottom: -4px;
+  
+}
+
+
+/* About us section start */
+
+.about-section{
+    margin: 100px 210px;
+}
+.about-section-inner{
+    padding: 80px 150px;
+    background-color:  #FFF8F3;
+}
+
+.about-description{
+        color:  #757575;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.about-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.about-info-descrition{
+  text-align: center;
+  color: #757575;
+  font-size: 14px;
+}
+.about-info-title{
+    font-size: 14px;
+    
+
 }
